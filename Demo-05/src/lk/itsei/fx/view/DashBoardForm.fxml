@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="492.0" prefWidth="736.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.itsei.fx.controller.DashBoardFormController">
+   <children>
+      <Label layoutX="627.0" layoutY="22.0" prefHeight="27.0" prefWidth="89.0" text=" LogOut" textFill="#1d07dd">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="90.0" layoutY="210.0" prefHeight="47.0" prefWidth="180.0" text=" Welcome,">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblUserName" layoutX="289.0" layoutY="216.0" prefHeight="55.0" prefWidth="301.0" text="&lt;&lt;UserName&gt;&gt;" textFill="#e80000">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="285.0" layoutY="429.0" prefHeight="40.0" prefWidth="130.0" text="Delete Account" textFill="#0a07eb">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

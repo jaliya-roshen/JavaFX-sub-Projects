@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="570.0" prefWidth="830.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.itsei.fx.controller.FontFormController">
+   <children>
+      <ListView fx:id="lstView" layoutX="36.0" layoutY="85.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label layoutX="36.0" layoutY="30.0" prefHeight="35.0" prefWidth="200.0" text=" Select Font" />
+      <Slider fx:id="sdrFontSize" layoutX="306.0" layoutY="74.0" prefHeight="18.0" prefWidth="434.0" showTickLabels="true" showTickMarks="true" />
+      <Label layoutX="322.0" layoutY="37.0" prefHeight="29.0" prefWidth="140.0" text=" Font Size" />
+      <ColorPicker fx:id="clrPicker" layoutX="322.0" layoutY="197.0" prefHeight="45.0" prefWidth="434.0" />
+      <Label layoutX="322.0" layoutY="153.0" prefHeight="35.0" prefWidth="130.0" text="Select Color" />
+      <ComboBox fx:id="cmbBox" layoutX="421.0" layoutY="306.0" onAction="#txtInputFontValue" prefWidth="150.0" />
+      <Label layoutX="322.0" layoutY="306.0" prefHeight="31.0" prefWidth="82.0" text=" Font Size" />
+      <Label fx:id="txtSampleText" alignment="CENTER" layoutX="34.0" layoutY="433.0" prefHeight="110.0" prefWidth="717.0" text=" Sample Text" textAlignment="JUSTIFY">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="401.0" prefHeight="35.0" prefWidth="115.0" text=" Output" />
+   </children>
+</AnchorPane>
